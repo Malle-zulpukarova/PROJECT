@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/one.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    min-height: 1000px;
+}
+.navbar{
+    height: 13%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(197, 134, 75);
+    font-size: 20px;
+}
+.row{
+    display:flex ;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:  rgb(124, 74, 37);
+    font-size: 100px;
+}
+p{
+    color: rgb(124, 74, 37);
+    font-size: 22px;
+    line-height: 22px;
+}
+button{
+    width: 190px;
+    color: black;
+    font-size: 12px;
+    padding: 4px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    font-size: 20px;
+}
+.card1{
+    background-image: url(img/koko.jpeg);
+    text-align:center;
+    margin-right: 60px;
+    margin-top: 150px;
+    
+
+}
+.pcard1{
+
+    margin-top: 250px;
+    margin-left: 90px;
+    color: rgb(239, 225, 207);
+    text-align: right;
+}
+.card2{
+    background-image: url(img/wehw.jpg);
+    margin-left: 50px;
+    
+}
+.card3{
+    background-image: url(img/hgd.webp);
+    margin-left: 30px;
+    
+}
+.card4{
+    background-image: url(img/iue.webp);
+    /* position: absolute; */
+    /* margin-left: 9px; */
+    
+}
